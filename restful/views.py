@@ -13,6 +13,16 @@ class postsDetail(generics.RetrieveAPIView):
     queryset = posts.objects.all()
     serializer_class = postsDetailSerializer
 
-class postsDelete(generics.DestroyAPIView):
+class postsUpdate(generics.UpdateAPIView):
+    lookup_field = 'id'
     queryset = posts.objects.all()
     serializer_class = postsListSerializer
+
+class postsDelete(generics.DestroyAPIView):
+    lookup_field = 'id'
+    queryset = posts.objects.all()
+    serializer_class = postsListSerializer
+
+class postsCreate(generics.CreateAPIView):
+    queryset = posts.objects.all()
+    serializer_class = postsCreateSerializer
