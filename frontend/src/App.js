@@ -1,34 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Route } from 'react-router-dom';
+import { Home, Detail, Write } from './pages';
 
-class App extends Component {
-    state = {
-        posts: []
-    };
-
-    async componentDidMount() {
-        try {
-            const res = await fetch('http://127.0.0.1:8000/posts');
-            const posts = await res.json();
-            this.setState({
-                posts
-            });
-        } catch (e) {
-            console.log(e);
-        }
-    }
-
-    render() {
-        return (
-            <div>
-                {this.state.posts.map(item => (
-                    <div key={item.id}>
-                        <h1>{item.title}</h1>
-                        <span>{item.content}</span>
-                    </div>
-                ))}
-            </div>
-        );
-    }
+class App extends React.Component{
+  render(){
+    return(
+      <div>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/Detail/:id" component={Detail}/>
+        <Route exact path="/Write" component={Write}/>
+      </div>
+    )
+  }
 }
 
 export default App;

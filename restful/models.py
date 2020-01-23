@@ -7,3 +7,18 @@ class posts(models.Model):
 
     def __str__(self):
         return self.title
+
+class container(models.Model):
+    c_id = models.IntegerField(primary_key=True)
+    entry = models.CharField(max_length=100)
+    output = models.CharField(max_length=100)
+    arrival = models.DateTimeField(auto_now=True)
+    departure = models.DateTimeField(auto_now=True)
+    type = models.CharField(max_length=100)
+    load = models.CharField(max_length=100)
+    weight = models.IntegerField()
+    temparature = models.FloatField()
+    humidity = models.FloatField()
+
+    def __str__(self):
+        return self.title

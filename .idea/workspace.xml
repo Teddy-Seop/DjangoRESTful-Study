@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e7962380-a8aa-461e-8589-0658a4f3f0d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restStudy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/restStudy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restStudy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restStudy/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/restful/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/restful/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restful/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restful/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restful/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ServiceViewManager">
@@ -62,10 +74,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="0" y="221" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1577356934259" />
-    <state x="218" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1577855346675">
+    <state x="218" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1579071073451">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="218" y="361" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577449322288" />
-    <state x="218" y="403" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1577855346675" />
+    <state x="218" y="403" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1579071073451" />
+    <state x="157" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1579757195829">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="157" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1579757195829" />
   </component>
 </project>

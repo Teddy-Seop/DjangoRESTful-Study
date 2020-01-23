@@ -1,17 +1,20 @@
 from rest_framework import serializers
-from .models import posts
+from .models import container
 
-class postsListSerializer(serializers.ModelSerializer):
+class containerListSerializer(serializers.ModelSerializer):
     class Meta:
-        model = posts #모델 설정
-        fields = ('id', 'title', 'content', 'writer') #필드 설정
+        model = container
+        fields = ('c_id', 'entry', 'output', 'arrival', 'departure',
+                  'type', 'load', 'weight', 'temparature', 'humidity')
 
-class postsDetailSerializer(serializers.ModelSerializer):
+class containerDetailSerializer(serializers.ModelSerializer):
     class Meta:
-        model = posts #모델 설정
-        fields = ('id', 'title', 'content', 'writer') #필드 설정
-        
-class postsCreateSerializer(serializers.ModelSerializer):
+        model = container
+        fields = ('c_id', 'entry', 'output', 'arrival', 'departure',
+                  'type', 'load', 'weight', 'temparature', 'humidity')
+
+class containerCreateSerializer(serializers.ModelSerializer):
     class Meta:
-        model = posts #모델 설정
-        fields = ('title', 'content', 'writer') #필드 설정
+        model = container
+        fields = ('c_id', 'entry', 'output', 'arrival', 'departure',
+                  'type', 'load', 'weight', 'temparature', 'humidity')
